@@ -1,0 +1,29 @@
+.createToDo {
+  margin-bottom: 1rem;
+  width: 100%;
+}
+.createToDo form {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.createToDo form input {
+  border: none;
+  outline: none;
+  margin-right: 1rem;
+  border: 1px solid grey;
+  border-radius: 3px;
+  padding: 0.25rem 0.75rem;
+  width: 100%;
+}
+.createToDo form button {
+  padding: 0.25rem 0.75rem;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  font-weight: 500;
+}
+.createToDo form button:hover {
+  background-color: rgb(54, 54, 54);
+}

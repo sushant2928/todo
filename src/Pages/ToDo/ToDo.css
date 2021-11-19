@@ -1,0 +1,17 @@
+.todo {
+  width: 100%;
+}
+.todo__list {
+  list-style-type: decimal;
+  padding-bottom: 1rem;
+}
+@media (min-width: 768px) {
+  .todo {
+    width: 50%;
+  }
+}
+@media (min-width: 1024px) {
+  .todo {
+    width: 33%;
+  }
+}
